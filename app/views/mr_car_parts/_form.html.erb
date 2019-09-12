@@ -22,9 +22,10 @@
   </div>
 
   <div class="control-group">
-    <%= form.label "Car_parts", class: 'control-label' %>
+    <%= form.label "Parts", class: 'control-label' %>
     <div class="controls">
-      <%= form.select(:status_type, options_for_select([['Fuses', 'Fuses'], ['Headlights', 'Headlights']])) %>
+      <%= form.select(:status_type, options_for_select([%w(Fuses Fuses), %w(Headlights Headlights), %w(Tires Tires),
+                                                        %w(Shocks Shocks), %w(Oil Oil), %w(Brakes Brakes)])) %>
     </div>
   </div>
 
