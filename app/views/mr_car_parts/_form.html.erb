@@ -1,0 +1,39 @@
+<%= form_with(model: mr_car_part, local: true) do |form| %>
+  <% if mr_car_part.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(mr_car_part.errors.count, "error") %> prohibited this mr_car_part from being saved:</h2>
+
+      <ul>
+      <% mr_car_part.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :Make %>
+    <%= form.text_field :Make %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Model %>
+    <%= form.text_field :Model %>
+  </div>
+
+  <div class="control-group">
+    <%= form.label "Car_parts", class: 'control-label' %>
+    <div class="controls">
+      <%= form.select(:status_type, options_for_select([['Fuses', 'Fuses'], ['Headlights', 'Headlights']])) %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :price %>
+    <%= form.text_field :price %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
