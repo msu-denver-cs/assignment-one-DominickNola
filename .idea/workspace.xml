@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7f7445ab-8682-4a77-8c2c-48758454bd46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/part_inventory.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/part_inventory.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +232,7 @@
       <workItem from="1568334326719" duration="57000" />
       <workItem from="1568500771790" duration="143000" />
       <workItem from="1568502441781" duration="117000" />
-      <workItem from="1568502560970" duration="2307000" />
+      <workItem from="1568502560970" duration="2816000" />
     </task>
     <servers />
   </component>
@@ -253,6 +253,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/assignment_one_DominickNola@Development__assignment_one_DominickNola.rcov" NAME="Development: assignment-one-DominickNola Coverage Results" MODIFIED="1568503332827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-DominickNola" />
+    <SUITE FILE_PATH="coverage/assignment_one_DominickNola@Development__assignment_one_DominickNola.rcov" NAME="Development: assignment-one-DominickNola Coverage Results" MODIFIED="1568505446760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-DominickNola" />
   </component>
 </project>
