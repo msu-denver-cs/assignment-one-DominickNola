@@ -10,15 +10,37 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_12_032110) do
+ActiveRecord::Schema.define(version: 2019_09_14_233623) do
 
-  create_table "mr_car_parts", force: :cascade do |t|
-    t.string "Make"
-    t.string "Model"
-    t.decimal "price"
+  create_table "invoice_parts", force: :cascade do |t|
+    t.string "make"
+    t.string "model"
+    t.string "vin"
+    t.integer "part_inventories_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "status_type"
+    t.index ["part_inventories_id"], name: "index_invoice_parts_on_part_inventories_id"
+  end
+
+  create_table "part_inventories", force: :cascade do |t|
+    t.string "name"
+    t.decimal "inventory"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "part_invoices", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "part_orders", force: :cascade do |t|
+    t.string "name"
+    t.decimal "inventory"
+    t.integer "part_inventory_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["part_inventory_id"], name: "index_part_orders_on_part_inventory_id"
   end
 
 end

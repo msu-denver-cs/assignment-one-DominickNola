@@ -1,0 +1,2 @@
+module PartInventoriesHelper
+end
