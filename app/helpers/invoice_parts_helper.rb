@@ -1,2 +1,0 @@
-module InvoicePartsHelper
-end
