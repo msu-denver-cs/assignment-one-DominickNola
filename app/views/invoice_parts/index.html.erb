@@ -19,7 +19,7 @@
         <td><%= invoice_part.make %></td>
         <td><%= invoice_part.model %></td>
         <td><%= invoice_part.vin %></td>
-        <td><%= invoice_part.part_inventories.name %></td>
+        <td><%= invoice_part.part_inventories_id %></td>
         <td><%= link_to 'Show', invoice_part %></td>
         <td><%= link_to 'Edit', edit_invoice_part_path(invoice_part) %></td>
         <td><%= link_to 'Destroy', invoice_part, method: :delete, data: { confirm: 'Are you sure?' } %></td>
