@@ -21,6 +21,11 @@
     <%= form.text_field :inventory %>
   </div>
 
+  <div class="field">
+    <%= form.label :car_id %>
+    <%= form.collection_select :car_id, Car.all, :id, :make %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
