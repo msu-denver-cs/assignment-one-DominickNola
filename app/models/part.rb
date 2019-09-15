@@ -1,2 +1,2 @@
-class Part < ApplicationRecord
+class Part < ActiveRecord::Base
 end

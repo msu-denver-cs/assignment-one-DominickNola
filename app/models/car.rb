@@ -1,2 +1,2 @@
-class Car < ApplicationRecord
+class Car < ActiveRecord::Base
 end

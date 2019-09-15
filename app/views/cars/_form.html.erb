@@ -26,6 +26,11 @@
     <%= form.text_field :vin %>
   </div>
 
+  <div class="field">
+    <%= form.label :part_id %>
+    <%= form.collection_select :part_id, Part.all, :id, :name %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
