@@ -31,7 +31,6 @@
     <%= form.text_field :country %>
   </div>
 
-  # drop down
   <div class="field">
     <%= form.label :part_id %>
     <%= form.collection_select :part_id, Part.all, :id, :name %>
