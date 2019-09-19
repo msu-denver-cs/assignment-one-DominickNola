@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f7445ab-8682-4a77-8c2c-48758454bd46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/cars_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/parts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/parts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/car.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/car.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +233,7 @@
       <workItem from="1568502441781" duration="117000" />
       <workItem from="1568502560970" duration="12839000" />
       <workItem from="1568760294374" duration="1327000" />
-      <workItem from="1568914134514" duration="2376000" />
+      <workItem from="1568914134514" duration="2996000" />
     </task>
     <servers />
   </component>
