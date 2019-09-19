@@ -4,6 +4,7 @@ class CreateCars < ActiveRecord::Migration[5.2]
       t.string :make
       t.string :model
       t.string :vin
+      t.string :country
 
       t.timestamps
     end
