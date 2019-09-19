@@ -16,8 +16,13 @@
 </p>
 
 <p>
-  <strong>Parts:</strong>
-  <%= @car.vin %>
+  <strong>Country:</strong>
+  <%= @car.country %>
+</p>
+
+<p>
+  <strong>Part:</strong>
+  <%= @car.parts.name %>
 </p>
 
 <%= link_to 'Edit', edit_car_path(@car) %> |

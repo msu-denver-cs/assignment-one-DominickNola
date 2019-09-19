@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7445ab-8682-4a77-8c2c-48758454bd46" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assignment-one-DominickNola.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment-one-DominickNola.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/factory.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/factory.rb" afterDir="false" />
     </list>
@@ -58,7 +61,7 @@
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -232,7 +235,8 @@
       <workItem from="1568334326719" duration="57000" />
       <workItem from="1568500771790" duration="143000" />
       <workItem from="1568502441781" duration="117000" />
-      <workItem from="1568502560970" duration="8191000" />
+      <workItem from="1568502560970" duration="12839000" />
+      <workItem from="1568760294374" duration="1327000" />
     </task>
     <servers />
   </component>
@@ -253,6 +257,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/assignment_one_DominickNola@Development__assignment_one_DominickNola.rcov" NAME="Development: assignment-one-DominickNola Coverage Results" MODIFIED="1568511816595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-DominickNola" />
+    <SUITE FILE_PATH="coverage/assignment_one_DominickNola@Development__assignment_one_DominickNola.rcov" NAME="Development: assignment-one-DominickNola Coverage Results" MODIFIED="1568914141664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-DominickNola" />
   </component>
 </project>

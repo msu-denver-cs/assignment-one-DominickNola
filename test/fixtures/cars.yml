@@ -4,8 +4,10 @@ one:
   make: MyString
   model: MyString
   vin: MyString
+  country: MyString
 
 two:
   make: MyString
   model: MyString
   vin: MyString
+  country: MyString

@@ -2,8 +2,8 @@
 
 one:
   name: MyString
-  inventory: MyString
+  inventory: 9.99
 
 two:
   name: MyString
-  inventory: MyString
+  inventory: 9.99
