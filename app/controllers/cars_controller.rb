@@ -1,7 +1,7 @@
 class CarsController < ApplicationController
   before_action :set_car, only: [:show, :edit, :update, :destroy]
 
-  # GET /cars
+  # GET /cars ...
   # GET /cars.json
   def index
     @cars = Car.all
@@ -15,12 +15,10 @@ class CarsController < ApplicationController
   # GET /cars/new
   def new
     @car = Car.new
-     @parts = Part.all
   end
 
   # GET /cars/1/edit
   def edit
-    @parts = Part.all
   end
 
   # POST /cars
@@ -71,6 +69,6 @@ class CarsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def car_params
-      params.require(:car).permit(:make, :model, :vin, :country, :part_ids => [])
+      params.require(:car).permit(:make, :model, :vin, :country)
     end
 end
