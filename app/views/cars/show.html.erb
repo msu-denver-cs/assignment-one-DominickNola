@@ -24,6 +24,12 @@
   <strong>Part:</strong>
   <%= @car.parts.name %>
 </p>
+<ul>
+  <% @car.parts.each do |part| %>
+    <li><%= part.name %></li>
+  <% end %>
+</ul>
+
 
 <%= link_to 'Edit', edit_car_path(@car) %> |
 <%= link_to 'Back', cars_path %>

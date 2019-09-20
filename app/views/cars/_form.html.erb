@@ -13,7 +13,7 @@
 
   <div class="field">
     <%= form.label :make %>
-    <%= form.text_field :make %>
+    <%= form.collection_select :make, Make.all, :id, :name %>
   </div>
 
   <div class="field">
@@ -31,10 +31,9 @@
     <%= form.text_field :country %>
   </div>
 
-  # drop down
   <div class="field">
     <%= form.label :part_id %>
-    <%= form.collection_select :part_id, Part.all, :id, :name %>
+    <%= form.collection_select :part_ids, Part.all, :id, :name %>
   </div>
 
   <div class="actions">
