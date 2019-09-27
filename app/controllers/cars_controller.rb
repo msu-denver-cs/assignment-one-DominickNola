@@ -14,7 +14,7 @@ class CarsController < ApplicationController
     @makes = Make.all
   end
 
-  # GET /cars/new
+  # GET /cars/new.
   def new
     @car = Car.new
     @parts = Part.all
