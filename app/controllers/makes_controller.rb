@@ -21,6 +21,11 @@ class MakesController < ApplicationController
   def edit
   end
 
+  def search
+    @makes = Make.where("name like ?", "%#{params[:query]}%")
+    render :index
+  end
+
   # POST /makes
   # POST /makes.json
   def create

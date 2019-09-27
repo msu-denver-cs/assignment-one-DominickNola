@@ -1,13 +1,13 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  make: MyString
-  model: MyString
+  car_make: MyString
+  car_model: MyString
   vin: MyString
-  country: MyString
+  make: 
 
 two:
-  make: MyString
-  model: MyString
+  car_make: MyString
+  car_model: MyString
   vin: MyString
-  country: MyString
+  make: 

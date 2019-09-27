@@ -4,9 +4,9 @@
       <h2><%= pluralize(make.errors.count, "error") %> prohibited this make from being saved:</h2>
 
       <ul>
-      <% make.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
+        <% make.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
       </ul>
     </div>
   <% end %>

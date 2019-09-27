@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Makes</h1>
+<h1>Make</h1>
 
 <table>
   <thead>
@@ -21,6 +21,11 @@
         <td><%= link_to 'Destroy', make, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
+    <%= form_tag(search_parts_url, method: "get") do %>
+    <%= label_tag(:query, "Search for:") %>
+    <%= text_field_tag(:query) %>
+    <%= submit_tag("Search") %>
+  <% end %>
   </tbody>
 </table>
 

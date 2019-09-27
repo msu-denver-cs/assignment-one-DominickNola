@@ -14,9 +14,9 @@ class CarsTest < ApplicationSystemTestCase
     visit cars_url
     click_on "New Car"
 
-    fill_in "Country", with: @car.country
+    fill_in "Car make", with: @car.car_make
+    fill_in "Car model", with: @car.car_model
     fill_in "Make", with: @car.make
-    fill_in "Model", with: @car.model
     fill_in "Vin", with: @car.vin
     click_on "Create Car"
 
@@ -28,9 +28,9 @@ class CarsTest < ApplicationSystemTestCase
     visit cars_url
     click_on "Edit", match: :first
 
-    fill_in "Country", with: @car.country
+    fill_in "Car make", with: @car.car_make
+    fill_in "Car model", with: @car.car_model
     fill_in "Make", with: @car.make
-    fill_in "Model", with: @car.model
     fill_in "Vin", with: @car.vin
     click_on "Update Car"
 

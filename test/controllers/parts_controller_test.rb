@@ -17,7 +17,7 @@ class PartsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create part" do
     assert_difference('Part.count') do
-      post parts_url, params: { part: { inventory: @part.inventory, name: @part.name } }
+      post parts_url, params: { part: { part_name: @part.part_name } }
     end
 
     assert_redirected_to part_url(Part.last)
@@ -34,7 +34,7 @@ class PartsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update part" do
-    patch part_url(@part), params: { part: { inventory: @part.inventory, name: @part.name } }
+    patch part_url(@part), params: { part: { part_name: @part.part_name } }
     assert_redirected_to part_url(@part)
   end
 
