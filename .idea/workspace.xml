@@ -2,69 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7445ab-8682-4a77-8c2c-48758454bd46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assignment-one-DominickNola.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment-one-DominickNola.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cars.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/makes.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/parts.coffee" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/cars_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/makes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/makes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/parts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/parts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/car.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/car.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/cars_parts.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/make.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/make.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/part.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/part.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/cars/_car.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/_car.json.jbuilder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/cars/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/cars/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/cars/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/makes/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/makes/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/makes/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/makes/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/parts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/parts/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/parts/_part.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/parts/_part.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/parts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/parts/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/parts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/parts/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/bundle" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/update" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/puma.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/spring.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190917222840_create_parts.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190917223054_create_cars.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190917223847_create_cars_parts.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190919183021_create_makes.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_diff_parts.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/cars_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/cars_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/parts_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/parts_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/cars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/cars.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/cars_parts.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/makes.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/makes.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/parts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/parts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/cars_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/cars_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/parts_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/parts_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -300,7 +242,7 @@
       <workItem from="1568926403169" duration="22000" />
       <workItem from="1569345058543" duration="4645000" />
       <workItem from="1569544188516" duration="180000" />
-      <workItem from="1569544468068" duration="840000" />
+      <workItem from="1569544468068" duration="5033000" />
     </task>
     <servers />
   </component>
@@ -321,6 +263,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/assignment_one_DominickNola@Development__assignment_one_DominickNola.rcov" NAME="Development: assignment-one-DominickNola Coverage Results" MODIFIED="1569544487218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-DominickNola" />
+    <SUITE FILE_PATH="coverage/assignment_one_DominickNola@Development__assignment_one_DominickNola.rcov" NAME="Development: assignment-one-DominickNola Coverage Results" MODIFIED="1569556276965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-DominickNola" />
   </component>
 </project>

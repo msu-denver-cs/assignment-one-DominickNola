@@ -13,7 +13,7 @@
 
   <div class="field">
     <%= form.label :make_id %>
-    <%= form.collection_select :make_id, Make.all, :id, :name %>
+    <%= form.collection_select :make_id, @makes, :id, :name %>
   </div>
 
   <div class="field">
@@ -27,7 +27,7 @@
   </div>
 
   <div class="field">
-    <%= form.label :part_id %><br>
+    <%= form.label :part_id %>
     <%= form.collection_select(:part_id, @parts, :id, :part_name) %>
   </div>
 
