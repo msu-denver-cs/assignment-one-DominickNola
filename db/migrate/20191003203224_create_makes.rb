@@ -1,4 +1,4 @@
-class CreateMakes < ActiveRecord::Migration[6.0]
+class CreateMakes < ActiveRecord::Migration[5.2]
   def change
     create_table :makes do |t|
       t.string :name

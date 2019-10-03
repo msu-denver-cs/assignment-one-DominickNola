@@ -4,24 +4,24 @@
 
 <table>
   <thead>
-    <tr>
-      <th>Name</th>
-      <th>Country</th>
-      <th colspan="3"></th>
-    </tr>
+  <tr>
+    <th>Name</th>
+    <th>Country</th>
+    <th colspan="3"></th>
+  </tr>
   </thead>
 
   <tbody>
-    <% @makes.each do |make| %>
-      <tr>
-        <td><%= make.name %></td>
-        <td><%= make.country %></td>
-        <td><%= link_to 'Show', make %></td>
-        <td><%= link_to 'Edit', edit_make_path(make) %></td>
-        <td><%= link_to 'Destroy', make, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-    <%= form_tag(search_makes_url, method: "get") do %>
+  <% @makes.each do |make| %>
+    <tr>
+      <td><%= make.name %></td>
+      <td><%= make.country %></td>
+      <td><%= link_to 'Show', make %></td>
+      <td><%= link_to 'Edit', edit_make_path(make) %></td>
+      <td><%= link_to 'Destroy', make, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+  <%= form_tag(search_makes_url, method: "get") do %>
     <%= label_tag(:query, "Search for Make:") %>
     <%= text_field_tag(:query) %>
     <%= submit_tag("Makes Search") %>

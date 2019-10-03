@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7445ab-8682-4a77-8c2c-48758454bd46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/assignment-one-DominickNola.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment-one-DominickNola.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bbf33f4-c5de-4be0-b2a4-370320ec68cc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9bbf33f4-c5de-4be0-b2a4-370320ec68cc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/cars_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/parts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/parts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/cars/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/cars/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/cars/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/makes/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/makes/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/parts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/parts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +67,9 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/controllers/concerns" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -256,7 +252,8 @@
       <workItem from="1569889308941" duration="1879000" />
       <workItem from="1569952725710" duration="1879000" />
       <workItem from="1569976235458" duration="1441000" />
-      <workItem from="1570038394365" duration="5341000" />
+      <workItem from="1570038394365" duration="10048000" />
+      <workItem from="1570134281995" duration="3934000" />
     </task>
     <servers />
   </component>
@@ -277,6 +274,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/assignment_one_DominickNola@Development__assignment_one_DominickNola.rcov" NAME="Development: assignment-one-DominickNola Coverage Results" MODIFIED="1570039240446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-DominickNola" />
+    <SUITE FILE_PATH="coverage/assignment_one_DominickNola@Development__assignment_one_DominickNola.rcov" NAME="Development: assignment-one-DominickNola Coverage Results" MODIFIED="1570138317556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-DominickNola" />
   </component>
 </project>

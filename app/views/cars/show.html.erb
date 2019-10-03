@@ -1,21 +1,19 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-<strong>Make:</strong>
+  <strong>Car make:</strong>
   <%= @car.make.name %>
 </p>
 
 <p>
-  <strong>Model:</strong>
+  <strong>Car model:</strong>
   <%= @car.car_model %>
 </p>
 
 <p>
-  <strong>Vin:</strong>
-  <%= @car.vin %>
+  <strong>Vin number:</strong>
+  <%= @car.vin_number %>
 </p>
-
-<p>
 
 <%= link_to 'Edit', edit_car_path(@car) %> |
 <%= link_to 'Back', cars_path %>

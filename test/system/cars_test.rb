@@ -16,8 +16,8 @@ class CarsTest < ApplicationSystemTestCase
 
     fill_in "Car make", with: @car.car_make
     fill_in "Car model", with: @car.car_model
-    fill_in "Make", with: @car.make
-    fill_in "Vin", with: @car.vin
+    fill_in "Make", with: @car.make_id
+    fill_in "Vin number", with: @car.vin_number
     click_on "Create Car"
 
     assert_text "Car was successfully created"
@@ -30,8 +30,8 @@ class CarsTest < ApplicationSystemTestCase
 
     fill_in "Car make", with: @car.car_make
     fill_in "Car model", with: @car.car_model
-    fill_in "Make", with: @car.make
-    fill_in "Vin", with: @car.vin
+    fill_in "Make", with: @car.make_id
+    fill_in "Vin number", with: @car.vin_number
     click_on "Update Car"
 
     assert_text "Car was successfully updated"
