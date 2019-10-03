@@ -24,7 +24,7 @@ class PartsController < ApplicationController
   end
 
   def search
-    @parts = Part.where("name like ?", "%#{params[:query]}%")
+    @parts = Part.where("part_name like ?", "%#{params[:query]}%")
     render :index
   end
 

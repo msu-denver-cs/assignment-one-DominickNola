@@ -1,13 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<h1 style="font-family:Consolas;color:#0000ff;font-size:32px;">Cars</h1>
+<h1>Cars</h1>
 
-<table border="4" bordercolor=#0000ff>
+<table>
   <thead>
-  <col width="130">
-  <col width="80">
-    <tr style="font-size:15px;">
-
+    <tr>
       <th>Make</th>
       <th>Model</th>
       <th>Vin</th>
@@ -26,10 +23,10 @@
         <td><%= link_to 'Destroy', car, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
-    <%= form_tag(search_parts_url, method: "get") do %>
-      <%= label_tag(:query, "Search for:") %>
+    <%= form_tag(search_cars_url, method: "get") do %>
+      <%= label_tag(:query, "Search for Model:") %>
       <%= text_field_tag(:query) %>
-      <%= submit_tag("Search") %>
+      <%= submit_tag("Model Search") %>
     <% end %>
   </tbody>
 </table>

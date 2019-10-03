@@ -21,10 +21,10 @@
         <td><%= link_to 'Destroy', make, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
-    <%= form_tag(search_parts_url, method: "get") do %>
-    <%= label_tag(:query, "Search for:") %>
+    <%= form_tag(search_makes_url, method: "get") do %>
+    <%= label_tag(:query, "Search for Make:") %>
     <%= text_field_tag(:query) %>
-    <%= submit_tag("Search") %>
+    <%= submit_tag("Makes Search") %>
   <% end %>
   </tbody>
 </table>

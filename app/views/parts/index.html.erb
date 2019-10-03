@@ -22,9 +22,9 @@
   </tbody>
 
   <%= form_tag(search_parts_url, method: "get") do %>
-    <%= label_tag(:query, "Search for:") %>
+    <%= label_tag(:query, "Search for Part:") %>
     <%= text_field_tag(:query) %>
-    <%= submit_tag("Search") %>
+    <%= submit_tag("Parts Search") %>
   <% end %>
 
 </table>
