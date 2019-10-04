@@ -1,5 +1,5 @@
 language: ruby
 rvm:
-  2.5
+ — 2.5.3
 script:
-  xbundle exec rails test
+ - bundle exec rails test
