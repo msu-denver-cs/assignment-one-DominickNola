@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7445ab-8682-4a77-8c2c-48758454bd46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/cars_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/cars_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/makes_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/makes_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +252,7 @@
       <workItem from="1569976235458" duration="1441000" />
       <workItem from="1570038394365" duration="10048000" />
       <workItem from="1570134281995" duration="3934000" />
-      <workItem from="1570144112692" duration="4384000" />
+      <workItem from="1570144112692" duration="6018000" />
     </task>
     <servers />
   </component>
