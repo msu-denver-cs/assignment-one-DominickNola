@@ -4,29 +4,30 @@
 
 <table>
   <thead>
-    <tr>
-      <th>Make</th>
-      <th>Model</th>
-      <th>Vin</th>
-      <th>Country</th>
-      <th>Parts</th>
-      <th colspan="3"></th>
-    </tr>
+  <tr>
+    <th>Make</th>
+    <th>Model</th>
+    <th>Vin</th>
+    <th colspan="3"></th>
+  </tr>
   </thead>
 
   <tbody>
-    <% @cars.each do |car| %>
-      <tr>
-        <td><%= car.make %></td>
-        <td><%= car.model %></td>
-        <td><%= car.vin %></td>
-        <td><%= car.country %></td>
-        <td><%= car.parts.name %></td>
-        <td><%= link_to 'Show', car %></td>
-        <td><%= link_to 'Edit', edit_car_path(car) %></td>
-        <td><%= link_to 'Destroy', car, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
+  <% @cars.each do |car| %>
+    <tr>
+      <td><%= car.make.name %></td>
+      <td><%= car.car_model %></td>
+      <td><%= car.vin_number %></td>
+      <td><%= link_to 'Show', car %></td>
+      <td><%= link_to 'Edit', edit_car_path(car) %></td>
+      <td><%= link_to 'Destroy', car, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+  <%= form_tag(search_cars_url, method: "get") do %>
+    <%= label_tag(:query, "Search for Model:") %>
+    <%= text_field_tag(:query) %>
+    <%= submit_tag("Model Search") %>
+  <% end %>
   </tbody>
 </table>
 

@@ -14,10 +14,10 @@ class CarsTest < ApplicationSystemTestCase
     visit cars_url
     click_on "New Car"
 
-    fill_in "Country", with: @car.country
-    fill_in "Make", with: @car.make
-    fill_in "Model", with: @car.model
-    fill_in "Vin", with: @car.vin
+    fill_in "Car make", with: @car.make.name
+    fill_in "Car model", with: @car.car_model
+    fill_in "Make", with: @car.make_id
+    fill_in "Vin number", with: @car.vin_number
     click_on "Create Car"
 
     assert_text "Car was successfully created"
@@ -28,10 +28,10 @@ class CarsTest < ApplicationSystemTestCase
     visit cars_url
     click_on "Edit", match: :first
 
-    fill_in "Country", with: @car.country
-    fill_in "Make", with: @car.make
-    fill_in "Model", with: @car.model
-    fill_in "Vin", with: @car.vin
+    #fill_in "Car make", with: @car.make.name
+    fill_in "Car model", with: @car.car_model
+    fill_in "Make", with: @car.make_id
+    fill_in "Vin number", with: @car.vin_number
     click_on "Update Car"
 
     assert_text "Car was successfully updated"

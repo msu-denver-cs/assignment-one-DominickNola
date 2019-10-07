@@ -4,21 +4,16 @@
       <h2><%= pluralize(part.errors.count, "error") %> prohibited this part from being saved:</h2>
 
       <ul>
-      <% part.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
+        <% part.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
       </ul>
     </div>
   <% end %>
 
   <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
-  </div>
-
-  <div class="field">
-    <%= form.label :inventory %>
-    <%= form.text_field :inventory %>
+    <%= form.label :part_name %>
+    <%= form.text_field :part_name %>
   </div>
 
   <div class="actions">
