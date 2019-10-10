@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7445ab-8682-4a77-8c2c-48758454bd46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assignment-one-DominickNola.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment-one-DominickNola.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -253,6 +251,9 @@
       <workItem from="1570134281995" duration="3934000" />
       <workItem from="1570144112692" duration="6208000" />
       <workItem from="1570247759997" duration="551000" />
+      <workItem from="1570414250623" duration="920000" />
+      <workItem from="1570588246442" duration="122000" />
+      <workItem from="1570653626714" duration="4808000" />
     </task>
     <servers />
   </component>
@@ -273,6 +274,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/assignment_two_DominickNola@Development__assignment_one_DominickNola.rcov" NAME="Development: assignment-one-DominickNola Coverage Results" MODIFIED="1570670519756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-DominickNola" />
     <SUITE FILE_PATH="coverage/assignment_one_DominickNola@Development__assignment_one_DominickNola.rcov" NAME="Development: assignment-one-DominickNola Coverage Results" MODIFIED="1570247786438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-DominickNola" />
   </component>
 </project>
