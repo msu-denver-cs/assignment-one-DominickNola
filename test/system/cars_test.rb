@@ -14,9 +14,9 @@ class CarsTest < ApplicationSystemTestCase
     visit cars_url
     click_on "New Car"
 
-    fill_in "Car make", with: @car.make.name
+    # fill_in "Car make", with: @car.make.name
     fill_in "Car model", with: @car.car_model
-    fill_in "Make", with: @car.make_id
+    # fill_in "Make", with: @car.make_id
     fill_in "Vin number", with: @car.vin_number
     click_on "Create Car"
 
@@ -30,7 +30,7 @@ class CarsTest < ApplicationSystemTestCase
 
     #fill_in "Car make", with: @car.make.name
     fill_in "Car model", with: @car.car_model
-    fill_in "Make", with: @car.make_id
+    # fill_in "Make", with: @car.make_id
     fill_in "Vin number", with: @car.vin_number
     click_on "Update Car"
 
